@@ -2,6 +2,7 @@
     background-color: #1f2937;
     padding: 10px;
     font-family: roboto;
+    padding-bottom: 100px;
 }
 
 h1 {
@@ -25,6 +26,7 @@ h3 {
 p{
     font-size: 18px;
     color: #e5e7eb;
+    font-family: roboto;
 }
 
 button {
@@ -68,3 +70,37 @@ ul {
 .mid {
 max-width: 400px;
 }
+
+.box {
+    width: 150px;
+    height: 150px;
+    border: 10px solid #3882F6 ;
+    border-radius: 15px;
+}
+
+.gpbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 200px;
+    padding-bottom: 50px;
+}
+
+.minbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 150px;
+}
+
+#headersec {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    font-family: roboto;
+    text-align: center;
+}
+
+
+ 
