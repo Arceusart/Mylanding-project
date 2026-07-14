@@ -37,6 +37,7 @@ button {
     border-radius: 10px;
     background-color: #3882F6;
     font-weight: bold;
+    border-color: #e5e7eb;
 }
 
 img {
@@ -129,3 +130,34 @@ max-width: 400px;
     align-self: flex-end;
 }
  
+.container {
+    background-color: #3882F6;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: flex;
+    justify-content: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    align-items: center;
+    gap: 300px;
+    padding: 30px;
+
+}
+
+#firsttext {
+    font-size: 24px;
+    font-weight: 900;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+#sectext {
+    font-size: 18px;
+    margin-top: 0px;
+}
+
+.secsignup {
+    border-color: white;
+}
